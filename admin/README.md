@@ -61,20 +61,6 @@
   </tr>
 </table>
 
-## 🛠️ Tech Stack
-
-<div align="center">
-  <img src="https://skillicons.dev/icons?i=nextjs,typescript,tailwind,react,vercel,jest,storybook,js,html" alt="Tech Stack">
-</div>
-  
-  [![Next.js](https://img.shields.io/badge/Next.js-14.2.3-black?logo=next.js)](https://nextjs.org)
-  [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.4.1-%2338B2AC?logo=tailwind-css)](https://tailwindcss.com)
-  [![TypeScript](https://img.shields.io/badge/TypeScript-5.3.3-%233178C6?logo=typescript)](https://www.typescriptlang.org)
-  [![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-%23F7DF1E?logo=javascript)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-  [![HTML5](https://img.shields.io/badge/HTML5-%23E34F26?logo=html5)](https://developer.mozilla.org/en-US/docs/Web/HTML)
-  [![Responsive](https://img.shields.io/badge/Responsive-Yes-brightgreen)](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Responsive_Design)
-  [![Backend](https://img.shields.io/badge/Backend-Integrated-success)](https://developer.mozilla.org/en-US/docs/Web/HTTP)
-</div>
 ## 🌟 Key Features
 
 <table>
