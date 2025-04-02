@@ -13,7 +13,6 @@ connectDB();
 
 const app = express(); 
 
-// تكوين CORS للسماح بالطلبات من أي مصدر
 app.use(cors({
   origin: '*',
   methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
@@ -22,10 +21,8 @@ app.use(cors({
 
 app.use(express.json());
 
-// إضافة مسار ثابت للملفات المرفوعة
 app.use('/uploads', express.static(path.join(__dirname, 'uploads')));
 
-// إنشاء مجلد uploads إذا لم يكن موجودًا
 const fs = require('fs');
 const uploadsDir = path.join(__dirname, 'uploads/products');
 const offersDir = path.join(__dirname, 'uploads/offers');
@@ -37,19 +34,15 @@ if (!fs.existsSync(offersDir)) {
     fs.mkdirSync(offersDir, { recursive: true });
 }
 
-// إضافة middleware للتحقق من التوكن من كلا الحقلين
 app.use((req, res, next) => {
-    // استخراج التوكن من x-auth-token أو Authorization
     const tokenFromHeader = req.header('x-auth-token');
     const authHeader = req.header('authorization');
     
-    // استخراج التوكن من حقل Authorization إذا كان موجودًا
     let tokenFromAuth = null;
     if (authHeader && authHeader.startsWith('Bearer ')) {
         tokenFromAuth = authHeader.substring(7);
     }
     
-    // استخدام التوكن من أي من الحقلين
     req.token = tokenFromHeader || tokenFromAuth;
     next();
 });

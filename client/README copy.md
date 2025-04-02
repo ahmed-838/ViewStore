@@ -1,14 +1,14 @@
-# 🖥️ ViewStore Admin Dashboard - Modern React Interface
+# 🛍️ ViewStore - Modern E-Commerce 
 
 ## 🔗 Live Demo  
 
-[![Live Demo](https://img.shields.io/badge/Live_Demo-%2300C853?style=for-the-badge&logo=vercel&logoColor=white)](https://admin.viewstore.shop)
+[![Live Demo](https://img.shields.io/badge/Live_Demo-%2300C853?style=for-the-badge&logo=vercel&logoColor=white)](https://viewstore.shop)
 
 
 <div align="center" style="display: flex; justify-content: center; gap: 10px; flex-wrap: wrap;">
-  <img src="../assets/dashboard-1.png" width="200" height="400" alt="ViewStore Admin Dashboard">
-  <img src="../assets/dashboard-2.png" width="200" height="400"  alt="Admin Dashboard Preview">
-  <img src="../assets/dashboard-3.png" width="200" height="400"  alt="Admin Dashboard Preview">
+  <img src="../assets/offer1.png" width="200" height="400" alt="ViewStore Admin Dashboard">
+  <img src="../assets/order-request1.png" width="200" height="400"  alt="Admin Dashboard Preview">
+  <img src="../assets/order-request2.png" width="200" height="400"  alt="Admin Dashboard Preview">
 </div>
   
   [![Next.js](https://img.shields.io/badge/Next.js-14.2.3-black?logo=next.js)](https://nextjs.org)
@@ -60,6 +60,14 @@
 </td>
   </tr>
 </table>
+
+## 🛠️ Website Performance Check
+
+<div align="center" style="display: flex; justify-content: center; gap: 10px; flex-wrap: wrap;">
+  <img src="../assets/performance-check.png" width="200" height="400" alt="ViewStore Admin Dashboard">
+  <img src="../assets/performance-check2.png" width="200" height="400" alt="ViewStore Admin Dashboard">
+
+</div>
 
 ## 🛠️ Tech Stack
 
