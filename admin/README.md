@@ -66,22 +66,6 @@
 <div align="center">
   <img src="https://skillicons.dev/icons?i=nextjs,typescript,tailwind,react,vercel,jest,storybook,js,html" alt="Tech Stack">
 </div>
-
-## 🖼️ UI Components
-
-```mermaid
-graph TD
-    A[Layout] --> B[Navbar]
-    A --> C[Sidebar]
-    A --> D[Main Content]
-    B --> E[User Menu]
-    C --> F[Navigation Links]
-    D --> G[Interactive Data Tables]
-    D --> H[Charts]
-    D --> I[Forms]
-    D --> J[Modals]
-    D --> K[Notifications] alt="Admin Dashboard Preview">
-```
   
   [![Next.js](https://img.shields.io/badge/Next.js-14.2.3-black?logo=next.js)](https://nextjs.org)
   [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.4.1-%2338B2AC?logo=tailwind-css)](https://tailwindcss.com)
