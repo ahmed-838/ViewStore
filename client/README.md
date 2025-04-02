@@ -1,36 +1,147 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🛍️ ViewStore - Modern E-Commerce 
 
-## Getting Started
+## 🔗 Live Demo  
 
-First, run the development server:
+[![Live Demo](https://img.shields.io/badge/Live_Demo-%2300C853?style=for-the-badge&logo=vercel&logoColor=white)](https://viewstore.shop)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+
+<div align="center" style="display: flex; justify-content: center; gap: 10px; flex-wrap: wrap;">
+  <img src="../assets/offer1.png" width="200" height="400" alt="ViewStore Admin Dashboard">
+  <img src="../assets/order-request1.png" width="200" height="400"  alt="Admin Dashboard Preview">
+  <img src="../assets/order-request2.png" width="200" height="400"  alt="Admin Dashboard Preview">
+</div>
+  
+  [![Next.js](https://img.shields.io/badge/Next.js-14.2.3-black?logo=next.js)](https://nextjs.org)
+  [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.4.1-%2338B2AC?logo=tailwind-css)](https://tailwindcss.com)
+  [![TypeScript](https://img.shields.io/badge/TypeScript-5.3.3-%233178C6?logo=typescript)](https://www.typescriptlang.org)
+  [![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-%23F7DF1E?logo=javascript)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+  [![HTML5](https://img.shields.io/badge/HTML5-%23E34F26?logo=html5)](https://developer.mozilla.org/en-US/docs/Web/HTML)
+  [![Responsive](https://img.shields.io/badge/Responsive-Yes-brightgreen)](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Responsive_Design)
+  [![Backend](https://img.shields.io/badge/Backend-Integrated-success)](https://developer.mozilla.org/en-US/docs/Web/HTTP)
+</div>
+
+## 🌟 Key Features
+
+<table>
+  <tr>
+    <td width="50%">
+    
+**🚀 Blazing Fast Performance**
+- Static Site Generation (SSG)
+- Client-side Rendering (CSR)
+- Lazy loading components
+- JavaScript optimized performance
+- TypeScript type safety
+
+**🎨 Beautiful UI**
+- Tailwind CSS styling
+- Dark/light mode
+- Custom animations
+- Interactive elements
+- HTML5 semantic structure
+
+</td>
+    <td width="50%">
+
+**🔒 Enterprise Security**
+- JWT authentication
+- Role-based views
+- CSRF protection
+- Backend API integration
+- Secure data handling
+
+**📱 Fully Responsive**
+- Mobile-first design
+- Tablet optimized
+- 4K desktop support
+- Adaptive layouts
+- Touch-friendly components
+
+</td>
+  </tr>
+</table>
+
+## 🛠️ Website Performance Check
+
+<div align="center" style="display: flex; justify-content: center; gap: 10px; flex-wrap: wrap;">
+  <img src="../assets/performance-check.png" width="200" height="400" alt="ViewStore Admin Dashboard">
+  <img src="../assets/performance-check2.png" width="200" height="400" alt="ViewStore Admin Dashboard">
+
+</div>
+
+## 🛠️ Tech Stack
+
+<div align="center">
+  <img src="https://skillicons.dev/icons?i=nextjs,typescript,tailwind,react,vercel,jest,storybook,js,html" alt="Tech Stack">
+</div>
+
+## 🖼️ UI Components
+
+```mermaid
+graph TD
+    A[Layout] --> B[Navbar]
+    A --> C[Sidebar]
+    A --> D[Main Content]
+    B --> E[User Menu]
+    C --> F[Navigation Links]
+    D --> G[Interactive Data Tables]
+    D --> H[Charts]
+    D --> I[Forms]
+    D --> J[Modals]
+    D --> K[Notifications] alt="Admin Dashboard Preview">
 ```
+  
+  [![Next.js](https://img.shields.io/badge/Next.js-14.2.3-black?logo=next.js)](https://nextjs.org)
+  [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.4.1-%2338B2AC?logo=tailwind-css)](https://tailwindcss.com)
+  [![TypeScript](https://img.shields.io/badge/TypeScript-5.3.3-%233178C6?logo=typescript)](https://www.typescriptlang.org)
+  [![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-%23F7DF1E?logo=javascript)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+  [![HTML5](https://img.shields.io/badge/HTML5-%23E34F26?logo=html5)](https://developer.mozilla.org/en-US/docs/Web/HTML)
+  [![Responsive](https://img.shields.io/badge/Responsive-Yes-brightgreen)](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Responsive_Design)
+  [![Backend](https://img.shields.io/badge/Backend-Integrated-success)](https://developer.mozilla.org/en-US/docs/Web/HTTP)
+</div>
+## 🌟 Key Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+<table>
+  <tr>
+    <td width="50%">
+    
+**🚀 Blazing Fast Performance**
+- Static Site Generation (SSG)
+- Client-side Rendering (CSR)
+- Lazy loading components
+- JavaScript optimized performance
+- TypeScript type safety
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+**🎨 Beautiful UI**
+- Tailwind CSS styling
+- Dark/light mode
+- Custom animations
+- Interactive elements
+- HTML5 semantic structure
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+</td>
+    <td width="50%">
 
-## Learn More
+**🔒 Enterprise Security**
+- JWT authentication
+- Role-based views
+- CSRF protection
+- Backend API integration
+- Secure data handling
 
-To learn more about Next.js, take a look at the following resources:
+**📱 Fully Responsive**
+- Mobile-first design
+- Tablet optimized
+- 4K desktop support
+- Adaptive layouts
+- Touch-friendly components
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+</td>
+  </tr>
+</table>
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🛠️ Tech Stack
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+<div align="center">
+  <img src="https://skillicons.dev/icons?i=nextjs,typescript,tailwind,react,vercel,jest,storybook,js,html" alt="Tech Stack">
+</div>
