@@ -1,21 +1,3 @@
-<!-- Schema.org markup for Google -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "SoftwareSourceCode",
-  "name": "ViewStore E-Commerce Platform",
-  "description": "Full-stack e-commerce solution with Next.js, Node.js and DevOps integration",
-  "keywords": "ecommerce, nextjs, nodejs, docker, devops",
-  "author": {
-    "@type": "Person",
-    "name": "Ahmed"
-  },
-  "codeRepository": "https://github.com/ahmed-838/ViewStore",
-  "runtimePlatform": "Node.js",
-  "softwareHelp": "https://github.com/ahmed-838/ViewStore/issues"
-}
-</script>
-
 # 🛍️ ViewStore - Professional E-Commerce Platform
 
 <div align="center">
